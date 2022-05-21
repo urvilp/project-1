@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background: linear-gradient(rgb(0, 195, 255), rgb(253, 89, 253));
+  border: 5px dashed rgb(102, 255, 0);
+}
+
+.card {
+  border: 2px solid #000000;
+  margin: 2%;
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.correct {
+  color: rgb(5, 166, 7);
+}
+
+.incorrect {
+  color: red;
+}
+
+.show-answer-btn {
+  border: 2px solid;
+}
+
+.correct-btn {
+  border: 2px solid rgb(10, 165, 41);
+}
+.incorrect-btn {
+  border: 2px solid red;
+}
+h1 {
+  color: rgb(139, 25, 0);
+}
